@@ -1,0 +1,110 @@
+
+    body{
+      height:100%;
+      background: rgb(72, 149, 5);
+      background: radial-gradient(circle,rgba(142, 17, 17, 0.1).0%, rgb(81, 2, 81)100%);
+    }
+    
+  
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:7;
+    color: #3f360c;
+  }
+  
+  .container {
+    display: block;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+  
+  }
+  
+  .btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px dashed whitesmoke;
+    border-radius: 20%;
+  }
+  h3{
+    margin: 1em 0 0.5em 0;
+    color: #343434;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Orienta', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+  }
+  h3:hover{
+    background-color: chartreuse;
+  }
+  
+  
+  #purple{
+  border-radius: 50%;
+  background-color: rgb(225, 36, 23);
+  opacity:0.5;
+  }
+  #yellow{
+    border-radius: 50%;
+    
+  }
+  
+  
+  .game-over {
+    background-color: red;
+    opacity: 43.0;
+  }
+  
+  .purple {
+    background-color: rgb(248, 69, 194);
+    
+  }
+  
+  
+  .green {
+    background-color: rgb(5, 183, 5);
+    border-radius: 50%;
+  }
+  
+  .blue {
+    background-color: blue;
+    border-radius: 50%;
+  }
+  
+  .yellow {
+    background-color: rgb(220, 220, 50);
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  button{
+  color: rgb(15, 19, 19);
+  width: 50%;
+  height:50px;
+  font-size: large;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: antiquewhite;
+border-width: 50px solid black;
+margin-left: auto;
+display: flex;
+justify-content: center;
+margin-right: auto;
+align-items: center;
+border-radius: 20px;
+letter-spacing: 1pxz;}
+  
+  .button:hover{
+    background-color:rgb(190, 211, 122);
+
+  }
